@@ -283,7 +283,13 @@ input[type="radio"]:checked {
   gap: 35px;
 }
 .news_card_image {
+  transition: 1s;
   width: calc((100% / 2) - 10px);
+}
+
+.news_card_image:hover{
+  cursor: pointer;
+  opacity: 10%;
 }
 
 .news_card_image img {
@@ -317,6 +323,7 @@ input[type="radio"]:checked {
   padding: 10px 20px 10px 0px;
   font-size: 26px;
   color: #000000;
+  font-weight: 300;
 }
 .reveal-button a:hover {
   color: #00000083;
@@ -364,10 +371,12 @@ input[type="radio"]:checked {
   color: #000000;
   font-size: 24px;
   transition: 0.5s;
+  transform: scale(1.2);
+
 }
 
 .foot_arrow_up a i:hover {
-  transform: scale(1.5);
+  transform: scale(1.6);
 }
 
 /* right  links */
