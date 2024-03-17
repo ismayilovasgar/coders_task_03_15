@@ -87,7 +87,7 @@ input[type="radio"]:checked {
 .txt_paragraphs p {
   font-size: 18px;
   text-align: justify;
-  text-indent: 10px;
+  text-indent: 15px;
   line-height: 24px;
   font-weight: 300;
   color: #555;
@@ -107,12 +107,16 @@ input[type="radio"]:checked {
   gap: 20px;
   justify-content: space-between;
 }
+.thump_wrapper img:hover{
+  transition: 2s;
+  opacity: 10%;
+  cursor: pointer;
+}
 
 .top_img,
 .bottom_img {
   display: flex;
   justify-content: space-between;
-  align-content: stretch;
   gap: 20px;
   align-items: center;
 }
