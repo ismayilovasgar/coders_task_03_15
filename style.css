@@ -125,6 +125,11 @@ input[type="radio"]:checked {
   font-size: 26px;
   font-weight: 300;
   color: #000000;
+  transition: 0.5s;
+}
+
+.btm_link a:hover {
+  color: rgb(109, 109, 109);
 }
 
 .service_list {
@@ -206,7 +211,6 @@ input[type="radio"]:checked {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid rgba(145, 139, 139, 0.849); */
   color: #ffffff;
   position: relative;
 }
@@ -287,7 +291,7 @@ input[type="radio"]:checked {
   width: calc((100% / 2) - 10px);
 }
 
-.news_card_image:hover{
+.news_card_image:hover {
   cursor: pointer;
   opacity: 10%;
 }
@@ -372,7 +376,6 @@ input[type="radio"]:checked {
   font-size: 24px;
   transition: 0.5s;
   transform: scale(1.2);
-
 }
 
 .foot_arrow_up a i:hover {
@@ -409,7 +412,7 @@ input[type="radio"]:checked {
   background-color: rgb(24, 119, 242);
 }
 
-.navlinks ul li .last_link:hover{
+.navlinks ul li .last_link:hover {
   color: rgb(122, 193, 66);
 }
 
