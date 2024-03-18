@@ -121,6 +121,7 @@ input[type="radio"]:checked {
   justify-content: space-between;
   gap: 0px var(--content_gap);
   margin: var(--content_gap) 0;
+  padding: 35px 0;
 }
 
 .txt_content .parent_header {
